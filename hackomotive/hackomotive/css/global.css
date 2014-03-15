@@ -1,0 +1,181 @@
+h2 {font-size: 45px;}
+address {background: url(../media/webassets/address_dot.png) no-repeat scroll left top; font-weight: bold;  height: 142px; left: 50%; padding-left: 90px; position: absolute; text-align: left; top: 50%; width: 310px;}
+.jumbotron {background-image: url(../media/webassets/dot.png), url(../media/webassets/jumbotron_bg.jpg);
+background-repeat:repeat, no-repeat;
+background-size: auto, cover;
+background-position: top left, bottom center;color: #fff; font-size: 14px;}
+.jumbotron .container {margin: 0; padding: 60px 0;}
+.jumbotron .container .col-md-12 {text-align: center;}
+.jumbotron p {line-height: 1.2; margin: 0; padding: 0 30px;}
+.jumbotron h2 {padding-left: 30px;}
+.jumbotron .jt-title {clear: both; color: #ED5119; font-weight: bold; overflow: hidden; text-transform: uppercase;}
+.jumbotron .jt-title p {background: #fff; height: 72px;}
+.jumbotron .jt-title p, .jumbotron .jt-title div {float: left;}
+.jumbotron h1,
+.navbar-brand {background: transparent url(../media/webassets/hackomotive_logo.png) no-repeat; text-indent: -999em;}
+.jumbotron h1 {height: 38px; margin: 0; width: 263px;}
+.jumbotron .jt-cta {clear: both;}
+.jumbotron .jt-cta div, .jumbotron .jt-cta p {float: left; font-size: 40px;}
+.jumbotron .jt-cta p.btn {font-size: 26px; padding: 22px 0 0 30px;}
+.jumbotron .jt-cta p.btn a {color: #fff;}
+.jumbotron .jt-cta p.btn:hover {background: #EB5228;}
+.jumbotron .jt-cta div, .jumbotron .jt-cta p.btn {height: 78px;}
+
+.navbar-brand {background-position: 0; background-size: 90% 35%; width: 160px;}
+.navbar-default .navbar-nav > li.registration-tab > a {background: #EA5434; color: #fff;}
+.navbar-nav {
+  margin-right: 0;
+  margin-left: 0;
+}
+.panel {margin-bottom: 0;}
+.panel-heading {color: #444444; font-size: 42px; text-align: center; text-transform: uppercase;}
+.panel#keynote {border-top:2px solid #e0e0e0;}
+.panel#judges {background: #F2F2F2; border-top:2px solid #e0e0e0;}
+.panel#judges .lead {font-size: 24px; text-align:center}
+.panel#judges .pastref {padding-bottom:39px; text-align:right;}
+.panel#judges .pastref a:hover {text-decoration:none;}
+.panel#prizes .lead {color: #8DB800; font-size: 24px;}
+.panel#prizes .panel-body p {text-align: center;}
+.panel#venue {color: #444;}
+.panel#venue .panel-heading {color: #EA5434;}
+.panel#venue .panel-body {cursor: pointer; position: relative; width: 100%;}
+.panel#venue .panel-footer {background: #white; opacity:0.80; filter:alpha(opacity=80); text-align: center; border-bottom:1px solid #e0e0e0; font-size:16px}
+.panel#venue .panel-footer a {color: #444;}
+.panel#faq {background: #E7E7E7;}
+.panel#background, .panel#past_events {background: #444 url(../media/webassets/past_bg.jpg) top left no-repeat; background-size: cover; color: #fff;}
+.panel#past_events {background-position: bottom left;}
+.panel#background .panel-heading, .panel#past_events .panel-heading {color: #fff;}
+.panel#footer_social_media {background: #555; font-size:18px; color: #fff;}
+.panel#footer_social_media span {padding-right:10px;}
+.panel#email_copy {text-align: center; padding-bottom:10px;}
+.panel#email_copy p:first-child {background: url(../media/webassets/email.png) top left no-repeat; min-height: 50px; margin: 0 auto; padding-left: 80px; text-align: left; vertical-align: middle;}
+.panel#email_copy p .edmunds-logo {background: url(../media/webassets/edmunds_logo.png) top left no-repeat; display: inline-block; height: 34px; text-indent: -999em; vertical-align: middle; width: 128px;}
+.panel#schedule {
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 30%, #f5f5f5 100%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#ffffff), color-stop(100%,#f5f5f5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 30%,#f5f5f5 100%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 30%,#f5f5f5 100%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 30%,#f5f5f5 100%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 30%,#f5f5f5 100%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.table {background: #fff;}
+img.arrow{
+position: relative;
+left: 0;
+vertical-align: middle;
+-webkit-transition: left .2s linear;
+-moz-transition: left .2s linear;
+-o-transition: left .2s linear;
+-ms-transition: left .2s linear;
+transition: left .2s linear;
+}
+a:hover img.arrow, button:hover img.arrow {
+  left: 10px;
+}
+
+#prizes .table-responsive .currency {color: #ddd; float: left; font-size: 100px; margin-top:-40px; font-weight: 800;}
+#prizes .table tbody > tr > td {border-top: none; border-bottom: 1px dashed #8DB800; padding: 0;}
+#prizes .table tbody tr td.col1,
+#prizes .table tbody tr:last-child td {border: 0px solid #fff;}
+#prizes .table tr td strong {color: #EA5434; display: block;}
+#prizes .table .col2,
+#prizes .table .col3 {display: block; float: left; overflow: hidden;}
+#prizes .table .col2 p {color: #8DB800; margin: 0;}
+#prizes .table .row2 .col2 p {color: #B5D170;}
+#prizes .table .row3 .col2 p {color: #D1E3A7;}
+
+.schedule-nav {clear: both; overflow: hidden; margin-top:29px;margin-bottom:39px; -webkit-padding-start:0; cursor:pointer;}
+.schedule-nav li {list-style: none; float: left; text-align: center; border-bottom: 2px solid #EB5228;}
+.schedule-nav li a {color: #525252; text-decoration:none; display:block;}
+.schedule-nav li.active {background: #EB5228; color: #fff;}
+.schedule-nav li:hover {background: #EE8267;}
+.schedule-nav li.active:hover{background: #EB5228;}
+.schedule-nav li.active a, .schedule-nav li:hover a {color: #fff;}
+.schedule-nav li a span {text-transform:uppercase; font-size:18px; font-weight:bold;}
+#schedule .table thead >tr > td {background: #eee;}
+#schedule .table thead >tr > td.worktime {background:#F0D7D1; border-bottom:5px solid #EA5434; border-top:5px solid #EA5434;}
+#schedule .table thead >tr > td.challenge {background:#D3BAB4; border-bottom:5px solid #EA5434; border-top:5px solid #EA5434;}
+#schedule .table thead >tr > td.left {border-left:5px solid #EA5434;}
+#schedule .table thead >tr > td.right {border-right:5px solid #EA5434;}
+#schedule .table thead >tr > td.workshop {border-bottom:5px solid #85C600; border-top:5px solid #85C600; border-left:5px solid #85C600; border-right:5px solid #85C600;}
+#schedule .table thead >tr > td.break {background:#CCC; text-align:center;}
+#schedule .table td span.border {color:#EA5434}
+#schedule .table tbody > tr > td {border: 1px solid #eee; border-collapse: collapse;} 
+#schedule .table tbody > tr:nth-child(odd) > td {color: #000; font-size: 20px; white-space: nowrap;}
+#schedule .table tbody > tr:nth-child(even) > td {background: #F5F5F5;}
+#faq .panel-body p:first-letter,
+#faq .panel-body .row .col-md-6 div:first-letter {color: #EB5228;}
+#faq .panel-body .row .col-md-6 div {border: 1px solid #ccc; border-top: none; margin-bottom: 10px; padding: 10px;}
+#faq .panel-body p {background: url(../media/webassets/minus.png) 98% center no-repeat; border: 1px solid #ccc; border-bottom: none; cursor: pointer; height: 48px; margin: 0; padding: 10px;}
+#faq .panel-body p.collapsed {background: url(../media/webassets/plus.png) 98% center no-repeat; border: 1px solid #ccc; margin-bottom: 10px;}
+
+#background img {float: left; padding: 0 30px 30px 0;}
+#background h3 {margin-top: 0;}
+
+#past_events .panel-body div {background: url(../media/webassets/past_event_bg.png) bottom center no-repeat; color: #aaa; float: left; font-size: 18px; height: 260px; padding: 65px 30px 30px 30px; margin-right: 30px; text-align: center; width: 290px; margin-top:50px;}
+#past_events .panel-body div p.addition {font-size:15px;}
+#past_events .panel-body div a {color:white;}
+#past_events .panel-body div:first-child {background: #EA5434; color: #fff; text-align: left;}
+#past_events .panel-body div .lead {font-size: 18px; padding-bottom:24px;}
+#past_events .panel-body div .lead strong {color: #fff; display: block; font-size: 28px; font-weight: normal;}
+
+#map-canvas {height: 100%; width: 100%;}
+
+@media (max-width: 480px) {
+.jumbotron .jt-title h3 {width: 459px;}
+#prizes .table {width: auto;}
+#prizes .table .col2,
+#prizes .table .col3 {height: 11px;}
+#prizes .table .col2 {font-size: 33px;}
+#prizes .table .col2 p {margin-top: -11px;}
+#prizes .table .row2 .col2 p {margin-top: -22px;}
+#prizes .table .row3 .col2 p {margin-top: -33px;}
+#prizes .table .col3 {font-size: 8px;}
+#prizes .table-responsive .currency {font-size: 26px;}
+#prizes .table tr td strong {display: inline;}
+address {background-position: center center; left: 0; padding-right: 0;}
+}
+
+@media (min-width: 480px) {
+.jumbotron .jt-title h3 {width: 459px;}
+#prizes .table {width: auto;}
+#prizes .table .col2,
+#prizes .table .col3 {height: 30px;}
+#prizes .table .col2 {font-size: 90px;}
+#prizes .table .col2 p {margin-top: -30px;}
+#prizes .table .row2 .col2 p {margin-top: -60px;}
+#prizes .table .row3 .col2 p {margin-top: -90px;}
+#prizes .table .col3 {font-size: 8px;}
+#keynote img {max-width: 300px;}
+}
+
+@media (min-width: 768px) {
+.acute-arrow-right  {border-top: 72px solid #fff; border-right: 20px solid transparent; height: 0; width: 0;}
+.acute-arrow-left {border-bottom: 78px solid #EB5228; border-left: 20px solid transparent; height: 0; width: 0;}
+.navbar > div {margin: 0 auto; width: 964px;}
+.jumbotron .container {margin: 0 auto; width: 964px;}
+.jumbotron .jt-title {font-size: 58px;}
+.jumbotron .jt-title h3 {width: 630px;}
+.panel {padding: 50px 0;}
+.panel .panel-header, .panel .panel-body {padding: 0; margin: 0 auto; width: 964px;}
+.panel#venue .panel-body {width: 100%;}
+#prizes .table-responsive {margin: 0 auto; width: 820px;}
+#prizes .table .col2,
+#prizes .table .col3 {height: 62px;}
+#prizes .table .col2 {width: 600px;}
+#prizes .table .col2 {font-size: 186px;}
+#prizes .table .col2 p {font-weight: 800; margin: -62px 0 0 0;}
+#prizes .table .row2 .col2 p {margin-top: -124px;}
+#prizes .table .row3 .col2 p {margin-top: -186px;}
+#prizes .table .col3 strong {font-size: 21px;}
+#prizes .table .col3 {font-size: 13px; padding-left:20px;}
+}
+
+@media (min-width: 992px) {
+.panel#email_copy p:first-child {width: 65%;}
+}
+
+@media (min-width: 1200px) {
+}

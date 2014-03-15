@@ -1,0 +1,131 @@
+/*!
+ * global css for edmunds.com hack-o-motive 2013
+ *
+ */
+html,
+body {
+height: 100%;
+/* The html and body elements cannot have any padding or margin. */
+}
+a {color: #555; text-decoration: underline;}
+a:hover, a:active {color: #90be3f;}
+body {background: #ccc;}
+.teamlist {font-size:10px;}
+@media (max-width: 768px) {
+body {background: #fff;}
+}
+/* Set the fixed height of the footer here */
+#push,
+#footer {color: #fff; font-family: verdana, sans-serif; font-size: 12px; font-weight: bold; height: 207px;}
+#footer .container {
+background-color: #90be3f; height: 207px; padding-top: 30px;
+}
+#footer p {float: left; margin: 20px; width: 40%;}
+.byline {float: right; margin-right: 90px;}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 979px) {
+#push,
+#footer, #footer .container {height: auto; padding: 10px;}
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-inner {padding: 0;}
+.byline {float: none; margin-right: 0;}
+}
+.overview-container .container {background: #fff; padding-top: 40px;}
+.overview-container .navbar .container {padding-top: 0;}
+.carsbg {background: url(../media/carsbg.jpg) center bottom no-repeat fixed; font-family: verdana, sand-serif; font-size: 12px;}
+.carsbg .span3 div, .carsbg .span4 div, .carsbg .span4 address, .carsbg .span5 div, .carsbg .span6 div, .carsbg .span4 address, .carsbg .span10 div {background: #fff; color: #333333; padding: 20px;}
+.carsbg .span4 div, .carsbg .span4 address {margin: 60px 0 0 0;}
+.carsbg.judges .span3 div, .carsbg.judges .span4 div, .carsbg.judges .span4 address, .carsbg.judges .span5 div, .carsbg.judges .span4 address, .carsbg.judges .span10 div {opacity:0.95; filter:alpha(opacity=95);}
+
+.carsbg .span5 div, .carsbg .span6 div {margin: 20px 0;}
+.carsbg .span10 div {height: 460px; margin: 20px 0; overflow: auto;}
+.carsbg.media .span10 div {height: auto; opacity:0.95; filter:alpha(opacity=95);}
+.carsbg.judges .span10 div ul {list-style-type: none;}
+.carsbg.judges .span10 div ul li {clear: both;}
+.carsbg.judges .span10 div ul li img {border-radius: 5px; float: left; margin: 0 20px 40px 0;}
+.carsbg.judges .span10 div ul li div {padding:0;height:auto;}
+@media (min-width: 768px) {
+.carsbg.prizes .span4 div {margin: 20px 0 0;}
+.carsbg.prizes .span4:first-child, .carsbg.prizes .span4 {font-size: 14px; text-transform: uppercase;}
+.carsbg.prizes .span4:last-child {margin-bottom: 20px;}
+}
+.overview-container .carsbg .span5 div, .overview-container .carsbg .span6 div {height: 460px; overflow: visible;}
+.overview-container .carsbg.prizes .span6 div {height: auto;}
+.overview-container .carsbg.prizes .span10.offset1 {margin-left: 8.111%;}
+
+.carsbg.media .span10 div {margin: 0; padding: 0;}
+.carsbg.media .span10 div iframe {display: block; height: 600px; margin: auto; width: 840px;}
+@media (max-width: 768px) {
+.carsbg.media .span10 div iframe {height: 264px; width: 470px;}
+}
+@media (max-width: 320px) {
+.carsbg.media .span10 div iframe {height: 163px; width: 290px;}
+}
+
+.navbar-inner {margin-left: 8.54701%; padding: 0;}
+@media (max-width: 768px) {
+.navbar-inner {margin-left: 0; padding: 0;}
+}
+.navbar .nav {float: none; margin-left: px;}
+.navbar .nav > li > a {font-size: 16px; text-align: center;}
+.nav-tabs > li > a, .nav-pills > li > a {margin-right: 6px;}
+.navbar .nav > li > a  {padding: 10px 0; width: 134px;}
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {background-color: #90be3f; color: #fff; }
+
+@media (min-width: 978px) {
+.overview-container h1 {background: url(../media/global.png) top left no-repeat; height: 52px; margin: 0 0 15px 240px; text-indent: -999em; width: 544px;}
+.tagline {background: url(../media/global.png) 0 -64px no-repeat; height: 24px; margin: 0 0 50px 240px; text-indent: -999em; width: 546px;}
+.carsbg.schedule .span4 div, .carsbg.schedule .span3 div  {height: 460px; margin: 20px 0; padding-top: 0; overflow: auto;}
+}
+@media (max-width: 978px) {
+.overview-container .container {margin-top: 10px;}
+.overview-container h1 {background: none; color: #90be3f; height: auto; font-size: 44px; margin: 0; text-indent: 0; width: auto;}
+.overview-container h1 span {color: #d1d2d4;}
+.tagline {background: none; color: #58585a; font-size: 28px; height: auto; margin: 0 0 15px 0; text-indent: 0; width: auto;}
+.carsbg .span4 div, .carsbg .span4 address, .carsbg .span5 div, .carsbg .span6 div {margin: 0 0 20px;}
+.carsbg.schedule .span4 div, .carsbg.schedule .span3 div {height: 180px; margin: 0 0 20px; padding-top: 0; overflow: auto;}
+.overview-container .carsbg.prizes .span10.offset1 {margin-left: 0;}
+}
+
+.fb-like {width:240px !important;}
+.twitter-follow {float: right; margin-right: 90px;}
+h2.title {font-size: 14px; text-transform: uppercase;}
+.edmunds-logo {background: url(../media/global.png) bottom left no-repeat; display: inline-block; height: 50px; margin-top: -13px; text-indent: -999em; vertical-align: middle; width: 160px;}
+.carsbg .span6 div.choiceaward {overflow: visible; min-height: 2100px;}
+.carsbg .span6 .choiceaward div {float: left; margin: 0; padding: 0; width: 50%;}
+.carsbg .span6 .choiceaward:nth-child(odd) div {margin-right: 20px; padding-top: 20px; width: 46%;}
+.overview-container .carsbg.prizes .span6 .choiceaward div.leaf {border-bottom: 1px solid #ccc; min-height: 200px;}
+.overview-container .carsbg.prizes .span6 .choiceaward:first-child div,
+.overview-container .carsbg.prizes .span6 .choiceaward:first-child + div {padding-top: 0;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide {background: url(../media/presentations_slide.png) top left no-repeat; display: block; float: left; height: 50px; margin: 5px 5px 5px 0; width: 50px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.one {background-position: 0 -250px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.two {background-position: 0 -800px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.three {background-position: 0 -450px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.four {background-position: 0 -500px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.five {background-position: 0 0;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.six {background-position: 0 -50px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.seven {background-position: 0 -100px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.eight {background-position: 0 -150px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.nine {background-position: 0 -200px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.ten {background-position: 0 -300px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.eleven {background-position: 0 -350px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.twelve {background-position: 0 -400px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.thirteen {background-position: 0 -550px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.fourteen {background-position: 0 -600px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.fifteen {background-position: 0 -650px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.sixteen {background-position: 0 -700px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.seventeen {background-position: 0 -750px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.eighteen {background-position: 0 -850px;}
+.overview-container .carsbg.prizes .span6 .choiceaward div .prez_slide.nineteen {background-position: 0 -900px;}
+@media (max-width: 320px) {
+.carsbg .span6 .choiceaward div,
+.carsbg .span6 .choiceaward:nth-child(odd) div
+{width: 100%;overflow:visible;}
+}
